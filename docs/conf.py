@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'helloWorld'
-copyright = '2020, Michael Altfield'
-author = 'Michael Altfield'
+copyright = '2020, proguy914629'
+author = 'proguy914629'
 
 # The short X.Y version
 version = ''
@@ -134,7 +134,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'helloWorld.tex', 'helloWorld Documentation',
-     'Michael Altfield', 'manual'),
+     'proguy914629', 'manual'),
 ]
 
 
@@ -259,13 +259,4 @@ html_context['downloads'] = list()
 html_context['downloads'].append( ('pdf', '/' +REPO_NAME+ '/' +current_language+ '/' +current_version+ '/' +project+ '-docs_' +current_language+ '_' +current_version+ '.pdf') )
  
 html_context['downloads'].append( ('epub', '/' +REPO_NAME+ '/' +current_language+ '/' +current_version+ '/' +project+ '-docs_' +current_language+ '_' +current_version+ '.epub') )
- 
-##########################
-# "EDIT ON GITHUB" LINKS #
-##########################
- 
-html_context['display_github'] = True
-html_context['github_user'] = 'maltfield'
-html_context['github_repo'] = 'rtd-github-pages'
-html_context['github_version'] = 'master/docs/'
  
