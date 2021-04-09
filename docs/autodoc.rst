@@ -7,3 +7,9 @@ helloWorld.py
   :members:
   :undoc-members:
  
+testingDocumentation.py
+=======================
+
+.. automodule:: testingDocumentation
+  :members:
+  :undoc-members:
